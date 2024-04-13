@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: poppins, sans-serif;
+}
+
+nav {
+  background-color: rgb(18, 18, 62);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  padding: 40px 0px;
+  font-size: 2.5rem;
+}
+
+.left-section span {
+  color: rgb(170, 107, 228);
+}
+
+.buttons {
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.left-section .btn1 {
+  background-color: rgb(30, 33, 103);
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.right-section {
+  margin: 0 105px;
+}
+
+.right-section img {
+  height: 78vh;
+}
+
+
+
+.education-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.secondSection {
+  padding: 30px 100px;
+  max-width: 80vw;
+  margin: auto;
+  height: 52vh;
+}
+
+
+
+.secondSection h2 {
+  font-size: 32px;
+}
+
+.secondSection .experience {
+  height: 2px;
+  width: 80vw;
+  background: white;
+  display: flex;
+  margin: 56px 0;
+}
+
+.sepration {
+  height: 2px;
+  width: 96%;
+  background-color: white;
+  margin: auto;
+}
+
+
+.vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 6vw;
+}
+
+
+.vertical img {
+  height: 20px;
+  position: relative;
+  bottom: 22px;
+  right: 8px;
+}
+
+.vertical .vertical-title {
+  font-size: 20px;
+  margin-top: 74px;
+}
+
+.thirdSection {
+  padding: 30px 100px;
+  max-width: 80vw;
+  margin: auto;
+  height: 30vh;
+}
+
+footer {
+  background-color: #0e0e1a;
+}
+
+.footer {
+  padding: 40px 0;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.Contact-details img {
+  height: 20px;
+}
+
+.Contact-details span {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .firstSection {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .secondSection .experience {
+    height: 80vh;
+    width: 2px;
+    display: grid;
+  }
+
+  .secondSectionSepration {
+    margin-top: 56vh;
+  }
+
+  .right-section img {
+    height: 35vh;
+  }
+
+  .vertical {
+    width: 128px;
+    height: 1px;
+    margin: 23px 4px;
+  }
+
+  .vertical img {
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+  }
+
+  .vertical .vertical-title {
+    margin: -25px 135px;
+  }
+
+  .third-hr {
+    margin: 265px 0 0 10px;
+    width: 92vw;
+  }
+
+  .thirdSection {
+    margin: 38px -78px 0 -78px;
+  }
+
+  .education-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-title {
+    width: 90vw;
+  }
+
+  .education-desc {
+    margin: 12px 30px;
+  }
+
+  .last-section {
+    height: 45vh;
+  }
+
+  .footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 125vw;
+  }
+
+  .firstSection {
+    text-align: center;
+    padding-left: 112px;
+
+  }
+
+  .sepration {
+    width: 111%;
+    margin-left: 20px;
+  }
+}
